@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+
+:root {
+  --primary-color: #XXXXXX;
+  --secondary-color: #XXXXXX;
+  --accent1-color: #XXXXXX;
+  --accent2-color: #XXXXXX;
+
+  --heading-font: '______', serif;
+  --paragraph-font: '______', serif;
+
+  --nav-background-color: #XXXXXX;
+  --nav-link-color: #XXXXXX;
+  --nav-hover-link-color: #XXXXXX;
+  --nav-hover-background-color: #XXXXXX;
+}
+h1 {
+    font-family: 'Arial Black';
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1{
+    scroll-behavior: auto;
+    accent-color:
+    text-color white;
+    background:rgb(200, 206, 210); 
+    width: 150px;  
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+
+        
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(63, 80, 136);
+}
+
+
+
+
+h2 {
+    color: rgb(63, 80, 136);
+}
+
+h3 {
+    color: rgb(63, 80, 136);
+}
+
+h4 {
+    color: rgb(63, 80, 136);
+}
+
+h5 {
+    color: hwb(0 0% 100%);
+}
+p {
+    padding: auto;
+}
+
+main {
+    max-width: auto;
+}
+img {
+    width: autopx;
+    height: auto;
+    border: auto solid steelblue;
+    padding: auto;
+    box-shadow: 0 0 30px gray;
+}
+
+p{
+    padding: 25px;
+}
+
+
+main img { 
+    max-width: auto;
+    max-height: auto;
+    margin-top: auto;
+    border-top: auto solid #000    
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    color: #333;
+  } 
