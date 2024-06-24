@@ -25,25 +25,11 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-  padding: 20px;
+  color: #1b0101;
 }
 
-
-:root {
-  --primary-color: #XXXXXX;
-  --secondary-color: #XXXXXX;
-  --accent1-color: #XXXXXX;
-  --accent2-color: #XXXXXX;
-
-  --heading-font: '______', serif;
-  --paragraph-font: '______', serif;
-
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+body {
+    background-color: rgb(189, 202, 202);
 }
 h1 {
     font-family: 'Arial Black';
@@ -111,6 +97,12 @@ p {
 main {
     max-width: auto;
 }
+img 1{  width: autopx;
+    height: 600px;
+};
+   
+
+
 img {
     width: autopx;
     height: auto;
