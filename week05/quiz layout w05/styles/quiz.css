@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+h1{
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+body {
+    font-family: Roboto, Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+  }
+
+  .quiz-form {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: .5rem;
+  }
+
+  .quiz-form h2 {
+    text-align: center;
+  }
+  .quiz-form label, .quiz-form button {
+    display: block;
+    margin-top: 10px;
+    
+  }
+  .quiz-form input[type="text"], .quiz-form select {
+    width: 100%;
+    padding: 5px;
+  }
+  .quiz-form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 100px;
+    background-color: navy;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  .quiz-form button:hover {
+    background-color: #005f73;
+  }

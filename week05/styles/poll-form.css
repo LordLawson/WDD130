@@ -50,17 +50,6 @@ form {
     font-weight: bold;
   }
   
-  
-  button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: navy;
-    color: white;
-    border-radius: .5rem;
-    cursor: pointer;
-}
-
   input[type="text"] {
     border: 1px solid #ccc;
     padding: 8px;
@@ -81,7 +70,7 @@ form {
  
   input[type="radio"] {
     margin-right: 5px;
-    +}
+    }
   
 
   input[type="submit"] {
@@ -94,7 +83,15 @@ form {
     cursor: pointer;
   }
   
- 
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;}
+
   .footer-text {
     text-align: center;
     margin-top: 40px;
@@ -121,7 +118,7 @@ form {
     text-align: center;
     font-size: 0.8em;
     color: #777;
-    border-top: 1px solid #ccc";
+    border-top: 1px solid #ccc"
        }
   
   
