@@ -1,5 +1,12 @@
 
-
+body{
+  display: grid;
+  margin: auto ;
+  border-radius: .5rem;
+  font: 1em comic sans ms;
+  background: center;
+  background-color: rgb(184, 202, 144);
+}
 .row {
     display: grid;
     padding: 50px;
